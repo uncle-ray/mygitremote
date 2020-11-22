@@ -19,13 +19,13 @@ public class Hello2Controller {
     public String hello1(Model model) {
         // 向模型中添加数据，封装数据
         model.addAttribute("msg", "Hello SpringMVCAnnotation！！");
-        return "hello";//会被视图解析器处理
+        return "allBook";//会被视图解析器处理
     }
 
     @RequestMapping("/h2")
     public String hello2(Model model) {
         // 向模型中添加数据，封装数据
         model.addAttribute("msg", "World SpringMVCAnnotation！！");
-        return "world";//会被视图解析器处理
+        return "redirect:/index.jsp";//会被视图解析器处理
     }
 }

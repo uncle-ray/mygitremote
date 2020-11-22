@@ -1,9 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>UncleRaysLove</title>
+    <title>书籍展示</title>
 </head>
 <body>
-    ${msg}
+    ${books}
 </body>
 </html>
